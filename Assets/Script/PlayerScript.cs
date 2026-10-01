@@ -25,7 +25,7 @@ public class PlayerScript : MonoBehaviour
 
 
     }
-    void PlayerTorque{
+    void PlayerTorque(){
              moveInput = moveAction.ReadValue<Vector2>();
         if (moveInput.x < 0)
         {
